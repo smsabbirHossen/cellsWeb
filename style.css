@@ -1184,14 +1184,15 @@ strong {
 .single-contact p a {
   color: #6b6b84;
 }
-@media (max-width: 567px) {
-  .contact-info {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+
 @media (max-width: 991px) {
   .contact-info {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 567px) {
+  .contact-info {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .contact-information {
